@@ -68,9 +68,9 @@ const Nav = ({ search, setSearch, searchproduct, cartCount }) => {
                   <FaShoppingCart />
                 </Link>
                 <span className="cart-count">{cartCount}</span>
-                <Link className="nav-link-log" to="/login">
+                {/* <Link className="nav-link-log" to="/login">
                   <span className="navbar-text">Login</span>
-                </Link>
+                </Link> */}
               </div>
             </ul>
           </div>
